@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David chus kitchen</title>
+    <script src="https://kit.fontawesome.com/381aabefe4.js" crossorigin="anonymous"></script>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+
+    .content1, .content2, .content3 {
+ width: 30%;
+ background-color: grey;
+ color: aliceblue;
+ float: left;    
+ display: inline-block;
+margin: 1%;
+padding: 1%;
+border-radius: 30px;
+
+    }
+.contents {
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+
+}   
+
+@media (max-width: 991px) and (min-width: 767px) {
+    .content1, .content2 {
+
+        width: 40%;
+        margin: 2%;
+        float: left;
+        display: inline-block;
+        box-sizing: border-box;
+        justify-self: center;
+    }
+    .content3 {
+
+        width: 40%;
+        text-align: center;
+       margin: 30%;
+       margin-top: 0px;
+    }
+}
+
+@media (max-width: 766px) {
+    .content1, .content2, .content3 {
+        width: 60%;
+        margin: 20%;
+        margin-top: 0%;
+    
+    }
+    .content2, .content3 {
+        margin-top: -10%;
+    }
+}
+
+#navbar {
+    margin: 0%;
+    padding: 0%;
+background-color: grey;
+
+}
+#navbar h1 {
+    text-align: left;
+    margin-left: 10%;
+    color: tomato;
+    padding: 10px;
+}
+
+.container h1 {
+    text-align: center;
+}
+.p1 {
+    text-align: left;
+    margin-top: 0%;
+    background-color: green;
+    margin: 0px;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+body {
+    font-family: cursive;
+}
+.icon {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    float: right;   
+
+}
+.header {
+box-sizing: border-box;
+display: block;
+
+}
+</style>
+</head>
+
+<body>
+    <div class="header">
+<nav id="navbar">
+    <h1>
+        Food, LLC
+    </h1>
+
+   <a href="#"> <P class="icon"><i class="fa-solid fa-bars"></i></P></a>
+</nav>
+</div>
+
+  <div class="container">
+    <h1>
+        Our menu
+    </h1>
+<div class="contents">
+<div class="content1">
+    <p class="p1">chicken</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, dolorum beatae? Aut ipsam veniam ea iure amet cum cupiditate voluptatem consequuntur, modi voluptatibus, numquam eveniet optio perspiciatis libero, officia possimus?</p>
+</div> 
+
+<div class="content2">
+    <p class="p1">beef</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, dolorum beatae? Aut ipsam veniam ea iure amet cum cupiditate voluptatem consequuntur, modi voluptatibus, numquam eveniet optio perspiciatis libero, officia possimus?</p>
+</div>
+
+<div class="content3">
+    <p class="p1">sushi</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, dolorum beatae? Aut ipsam veniam ea iure amet cum cupiditate voluptatem consequuntur, modi voluptatibus, numquam eveniet optio perspiciatis libero, officia possimus?</p>
+</div>
+
+</div>
+</div>
+</body>
+</html>
